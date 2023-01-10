@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Сайт Резюме</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class = "nav" id="nav">
+        <div class="conteiner">
+            <div class="nav-burger">
+                <input id="menu-toggle" type="checkbox" />
+                <label class="menu-btn" for="menu-toggle">
+                    <span></span>
+                </label>
+
+                <ul class="menubox">
+                    <li><a class="menu-item" href="#header">Главная</a></li>
+                    <li><a class="menu-item" href="#myinfo">Личная информация</a></li>
+                    <li><a class="menu-item" href="#educ">Образование</a></li>
+                    <li><a class="menu-item" href="#dopeduc">Дополнительное образование</a></li>
+                    <li><a class="menu-item" href="#skills">Навыки</a></li>
+                    <li><a class="menu-item" href="#personal">Личные качества</a></li>
+                    <li><a class="menu-item" href="#foto">Мои фото</a></li>
+                </ul>
+            </div>
+            <ul class="nav-list">
+                <li class="nav-li">
+                    <a href="#header" class="nav-link">Главная</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#myinfo" class="nav-link">Личная информация</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#educ" class="nav-link">Образование</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#dopeduc" class="nav-link">Дополнительное образование</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#skills" class="nav-link">Навыки</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#personal" class="nav-link">Личные качества</a>
+                </li>
+                <li class="nav-li">
+                    <a href="#foto" class="nav-link">Мои фото</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <header class="header" id="header">
+        <video class="bgvideo" src="./video/fon.mp4" autoplay muted loop></video>
+        <h1 class="header-title">Романовская Анжелика</h1>
+        <p class="header-subtitle">верстальщик, веб-разработчик, создание сайтов</p>
+    </header>
+
+    <div class="content">
+        <div class="content-info">
+            <div class="myinfo" id="myinfo">
+                <div class="info">
+                    <h2>Личная информация</h2>
+                    <p><b>Дата рождения:</b> 16.10.2002</p>
+                    <p><b>Город:</b> Минск</p>
+                    <p><b>Моб. телефон:</b> +375291539886</p>
+                    <p><b>E-mail:</b> angelika_romanovskaya_2002@mail.ru</p>
+                </div>
+            </div>
+            <div class="myinfo" id="educ">
+                <div class="info">
+                    <h2>Образование</h2>
+                    <p><b>Университет:</b> Белорусский Государственный Университет Информатики и Радиоэлектроники</p>
+                    <p><b>Год поступления:</b> 2020</p>
+                    <p><b>Год окончания:</b> 2024</p>
+                    <p><b>Факультет:</b> Инженерно-экономический</p>
+                    <p><b>Специальность:</b> информационные системы и технологии (в экономике)</p>
+                    <p><b>Отделение:</b> дневное</p>
+                    <p><b>Бюджет/платное:</b> бюджет</p>
+                    <p><b>Средний балл за обучение:</b> 9.3</p>
+                </div>
+            </div>
+            <div class="myinfo"  id="dopeduc">
+                <div class="info">
+                    <h2>Дополнительное образование</h2>
+                    <p><b>Курсы:</b> CISCO CCNAv7: introduction to Networks (CCNAv7: Введение в сетевые технологии)</p>
+                    <p><b>Когда:</b> сентябрь 2021г. - декабрь 2021г.</p>
+                </div>
+            </div>
+            <div class="myinfo" id="skills">
+                <div class="info">
+                    <h2>Навыки</h2>
+                    <p><b>Языки:</b> C/C++, Java, JavaScript (базовый уровень)</p>
+                    <p><b>Языки разметок:</b> HTML5/CSS3</p>
+                    <p><b>Опыт:</b> Написание и работы с ТЗ, выполнение курсовых и лабораторных работ</p>
+                    <p><b>Владение языками:</b> русский – свободно; английский – Pre-Intermediate</p>
+                </div>
+            </div>
+            <div class="myinfo" id="personal">
+                <div class="info">
+                    <h2>Личные качества</h2>
+                    <p>работоспособность, целеустремленность, умение работать в команде, дисциплинированность</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-foto" id="foto">
+        <div class="main">
+            <input type="radio" name="frame" id="frame1" checked />
+            <input type="radio" name="frame" id="frame2" />
+            <input type="radio" name="frame" id="frame3" />
+            <input type="radio" name="frame" id="frame4" />
+            <input type="radio" name="frame" id="frame5" />
+            <input type="radio" name="frame" id="frame6" />
+            <div class="slides" id="slides">
+                <div id="f1" class="frame frame1">
+                    <div class="inner-content">
+                        <img class="img" src="./img/1.jpg" alt="">
+                    </div>
+                </div>
+                <div id="f2" class="frame frame2">
+                    <div class="inner-content">
+                        <img src="./img/2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="frame frame3">
+                    <div class="inner-content">
+                        <img src="./img/3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="frame frame4">
+                    <div class="inner-content">
+                        <img src="./img/4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="frame frame5">
+                    <div class="inner-content">
+                        <img src="./img/5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="frame frame6">
+                    <div class="inner-content">
+                        <img src="./img/6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="controls">
+                <label for="frame1"></label>
+                <label for="frame2"></label>
+                <label for="frame3"></label>
+                <label for="frame4"></label>
+                <label for="frame5"></label>
+                <label for="frame6"></label>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-row">
+
+                <div class="footer-copyright footer-col">
+                    <div class="footer-copyright-name">©Романовская Анжелика</div>
+                    <p>HTML верстка и разработка сайтов</p>
+                </div>
+
+                <div class="footer-contacts footer-col">
+                    <a href="https://vk.me/angelika_ro" class="footer-button">
+                        Связаться вконтакте
+                    </a>
+                    <p>Напишите мне, чтобы заказать или узнать стоимость верстки вашего проекта.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
